@@ -27,8 +27,8 @@ body {
 }
 
 .progressContainer {
-  height: 50px;
-  background-color: yellow;
+  display: flex;
+  justify-content: center;
 }
 
 .actionInput {
@@ -48,4 +48,11 @@ body {
   justify-content: space-between;
   align-items: center;
   margin: 8px 8px;
+}
+
+#container {
+  margin: 20px;
+  width: 180px;
+  height: 180px;
+  position: relative;
 }
