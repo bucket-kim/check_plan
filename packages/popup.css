@@ -1,0 +1,51 @@
+body {
+  width: 450px;
+  height: 562px;
+}
+
+.greeting__type{
+  color: rgb(29, 29, 29);
+  margin-bottom: 0;
+}
+
+.greeting h2 {
+  margin-left: 16px;
+}
+
+.greeting__name{
+  color: rgb(136, 136, 136);
+  font-weight: 300;
+  font-size: 1.5em;
+}
+
+.greeting img {
+  position: absolute;
+  height: 180px;
+  z-index: 10;
+  top: -30px;
+  right: -20px;
+}
+
+.progressContainer {
+  height: 50px;
+  background-color: yellow;
+}
+
+.actionInput {
+  height: 50px;
+  background-color: red;
+}
+
+.actionItems {
+  height: 200px;
+  background-color: aqua;
+}
+
+.actionItem-item {
+  height: 50px;
+  background-color: coral;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 8px 8px;
+}
