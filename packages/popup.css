@@ -1,15 +1,11 @@
 body {
   width: 450px;
-  height: 562px;
+  padding: 20px;
 }
 
 .greeting__type{
   color: rgb(29, 29, 29);
   margin-bottom: 0;
-}
-
-.greeting h2 {
-  margin-left: 16px;
 }
 
 .greeting__name{
@@ -22,8 +18,8 @@ body {
   position: absolute;
   height: 180px;
   z-index: 10;
-  top: -30px;
-  right: -20px;
+  top: -40px;
+  right: -40px;
 }
 
 .progressContainer {
@@ -32,8 +28,38 @@ body {
 }
 
 .actionInput {
-  height: 50px;
-  background-color: red;
+  padding: 12px 20px;
+}
+
+.actionInput__text {
+  margin-bottom: 8px;
+}
+
+#addItemForm {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border-radius: 32px;
+  overflow: hidden;
+  padding: 8px 20px;
+  box-shadow: 0 1px 5px rgba(0,0,0,0.2);
+}
+
+#addItemForm i {
+  color: #adb0b4;
+}
+
+#addItemForm input {
+  outline: none;
+  border: none;
+  width: 300px;
+  height: 40px;
+  padding-left: 16px;
+  font-size: 18px;
+}
+
+#addItemForm input::placeholder {
+  color: #adb0b4;
 }
 
 .actionItems {
@@ -49,6 +75,26 @@ body {
   align-items: center;
   margin: 8px 8px;
 }
+
+.actionInput__suggestions {
+  margin-top: 0.75rem;
+}
+
+.actionInput__suggestions button {
+  border-radius: 25px;
+  border-color: #adb0b4;
+  color: #adb0b4;
+  box-shadow: 0 1px 5px rgba(0,0,0,0.2);
+}
+
+.actionInput__suggestions button:hover {
+  background-color: #3258C9;
+}
+
+.actionInput__suggestions button:focus {
+  box-shadow: none;
+}
+
 
 #container {
   margin: 20px;
